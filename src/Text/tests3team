@@ -1,0 +1,45 @@
+TESTS FOR 3 TEAM PLAYER VERSION
+
+Method: selectCodenames()
+Test: selectCodenamestest3()
+Functionality: Whether it randomly selects 25 different codenames from the text file.
+
+Method:newThreePlayerGame() generateAssignments() 
+Test: generateAssignmentstest3()
+Functionality: Checks if 25 codenames are assigned a team.
+
+Method: winning()
+Test: winningTest3RevealRed()
+Functionality: If all red agents are revealed then red team wins.
+
+Method: winning()
+Test: winningTest3RevealBlue()
+Functionality: If all blue agents are revealed then blue team wins.
+
+Method: winning()
+Test: winningTest3RevealGreen()
+Functionality: If all green agents are revealed then green team wins.
+
+Method: winning()
+Test: winingTest3Assassin()
+Functionality: Checking that board is in winning state.
+
+Method: winningTeam()
+Test: RedwiningAssassinTest()
+Functionality: Tests for Method defined which correctly returns which team wins once the 2nd Assassin is revealed
+
+Method: winningTeam()
+Test: BluewiningAssassinTest()
+Functionality: Tests for Method defined which correctly returns which team wins once the 2nd Assassin is revealed 
+
+Method: getTeamTurn()
+Test: BlueTeamTurnTest()
+Functionality: Tests for Method which returns which is used at the end of a turn to determine the team whose move is
+  				next (this must include the possibility that the next team in the 3-team rotation had previously Revealed 
+ 				an Assassin)
+
+Method: getTeamTurn()
+Test: BlueTurnSkipTest()
+Functionality: Tests for Method which returns which is used at the end of a turn to determine the team whose move is
+  				next (this must include the possibility that the next team in the 3-team rotation had previously Revealed 
+ 				an Assassin)
